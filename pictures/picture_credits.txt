@@ -1,0 +1,6 @@
+Sources of the picture files in this folder:
+
+bathroom.jpg: https://pixabay.com/en/bathroom-bath-wc-toilet-sink-2094733/
+bedroom.jpg: https://pixabay.com/en/bedroom-bed-room-books-read-2837439/
+living_room.jpg: https://www.publicdomainpictures.net/en/view-image.php?image=210522&picture=living-room
+kitchen.jpg: https://www.maxpixel.net/Furniture-Home-White-Interior-Sink-House-Kitchen-3496594
