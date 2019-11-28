@@ -1,6 +1,6 @@
-# Image classification of apartment rooms
+# Multi-label image classification of apartment rooms, using Inception v3
 
-As part of a miniproject for Introduction to Data Science course at the University of Helsinki, we have created a model for classifying images of rooms and houses. The model is based on a convolutional neural network called [Inception v3](https://arxiv.org/abs/1512.00567), which we modified for our purpose. Using this model as a predictor allows you to obtain probabilities for classes of room types (e.g. "Living room" - 0.95, "Kitchen" - 0.33, etc.) for every picture on which you run the model.
+In this project, we built a model for classifying images of rooms and houses. The model is based on a convolutional neural network called [Inception v3](https://arxiv.org/abs/1512.00567), which we modified for our purpose. Using this model as a predictor allows you to obtain probabilities for classes of room types (e.g. "Living room" - 0.95, "Kitchen" - 0.33, etc.) for every picture on which you run the model.
 
 The folder ``cnn`` contains the weights files for neural network. The folder ``pictures`` contains a couple of example pictures of rooms for which you can try our prediction model. You can also add a new picture to the folder and test it on your own photographs. The Jupyter notebook file ``label_a_picture.ipynb`` contains code that makes inference straight forward.
 
@@ -13,12 +13,14 @@ Python 3, Jupyter, Numpy, Pandas, Keras, Tensorflow, Matplotlib, Pillow.
 
 ### Examples
 
-1) BATHROOM
+#### 1) BATHROOM
 
 <img src="pictures/bathroom.jpg" alt="alt text" width=600>
 
 <img src="viz/bathroom_plot.png" alt="alt text" width=600>
 
+
+<b>Predictions:</b>
 ('Bathroom', 0.99298614),
  ('Separate WC', 0.4273895),
  ('Sauna', 0.41346362),
@@ -45,12 +47,13 @@ Python 3, Jupyter, Numpy, Pandas, Keras, Tensorflow, Matplotlib, Pillow.
  ('Terrace', 0.0090487925)
 
 
-2) LIVING ROOM
+#### 2) LIVING ROOM
 
 <img src="pictures/living_room.jpg" alt="alt text" width=600>
 
 <img src="viz/living_room_plot.png" alt="alt text" width=600>
 
+<b>Predictions:</b>
 ('Living room', 0.8914378),
  ('Hallway', 0.52240777),
  ('Bedroom', 0.10577865),
@@ -77,12 +80,13 @@ Python 3, Jupyter, Numpy, Pandas, Keras, Tensorflow, Matplotlib, Pillow.
  ('Sauna', 0.007104769)
 
 
-3) BEDROOM
+#### 3) BEDROOM
 
 <img src="pictures/bedroom.jpg" alt="alt text" width=600>
 
 <img src="viz/bedroom_plot.png" alt="alt text" width=600>
 
+<b>Predictions:</b>
 ('Bedroom', 0.5793384),
  ('Living room', 0.23728992),
  ('Kitchen', 0.22549711),
@@ -109,12 +113,13 @@ Python 3, Jupyter, Numpy, Pandas, Keras, Tensorflow, Matplotlib, Pillow.
  ('Floor plan', 0.020397851)
 
 
-4) KITCHEN
+#### 4) KITCHEN
 
 <img src="pictures/kitchen.jpg" alt="alt text" width=600>
 
 <img src="viz/kitchen_plot.png" alt="alt text" width=600>
 
+<b>Predictions:</b>
 ('Kitchen', 0.9681575),
  ('Dining space', 0.2476543),
  ('Separate WC', 0.13429703),
@@ -142,6 +147,6 @@ Python 3, Jupyter, Numpy, Pandas, Keras, Tensorflow, Matplotlib, Pillow.
 
 
 
-[Sources](https://github.com/mgierlach/apartment_room_photos_classification/blob/master/pictures/picture_credits.txt) of above pictures
+[Sources](https://github.com/mgierlach/inc3-cnn-apartment-room-classification/blob/master/pictures/picture_credits.txt) of above pictures
 
-Created by Moritz Lange, Mateusz Gierlach, Heikki Sarajärvi
+Created by Mateusz Gierlach, Moritz Lange, Heikki Sarajärvi
