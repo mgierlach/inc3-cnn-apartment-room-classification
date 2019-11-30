@@ -146,7 +146,6 @@ Python 3, Jupyter, Numpy, Pandas, Keras, Tensorflow, Matplotlib, Pillow.
  ('Balcony', 0.022471499)
 
 
-
 [Sources](https://github.com/mgierlach/inc3-cnn-apartment-room-classification/blob/master/pictures/picture_credits.txt) of above pictures
 
 Created by Mateusz Gierlach, Moritz Lange, Heikki Sarajärvi
