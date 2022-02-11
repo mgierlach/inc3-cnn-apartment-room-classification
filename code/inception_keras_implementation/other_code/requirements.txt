@@ -9,7 +9,7 @@ numpy==1.12.1
 olefile==0.44
 packaging==16.8
 pillow>=6.2.0
-protobuf==3.2.0
+protobuf==3.15.0
 pydevd==1.1.1
 pydot==1.2.3
 pyparsing==2.2.0
